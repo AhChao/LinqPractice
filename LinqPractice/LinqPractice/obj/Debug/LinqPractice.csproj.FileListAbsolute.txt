@@ -1,0 +1,7 @@
+C:\Users\steven.chao18.568WIN\Desktop\教學\Training Course\LinqPractice\LinqPractice\bin\Debug\LinqPractice.exe.config
+C:\Users\steven.chao18.568WIN\Desktop\教學\Training Course\LinqPractice\LinqPractice\bin\Debug\LinqPractice.exe
+C:\Users\steven.chao18.568WIN\Desktop\教學\Training Course\LinqPractice\LinqPractice\bin\Debug\LinqPractice.pdb
+C:\Users\steven.chao18.568WIN\Desktop\教學\Training Course\LinqPractice\LinqPractice\obj\Debug\LinqPractice.csprojAssemblyReference.cache
+C:\Users\steven.chao18.568WIN\Desktop\教學\Training Course\LinqPractice\LinqPractice\obj\Debug\LinqPractice.csproj.CoreCompileInputs.cache
+C:\Users\steven.chao18.568WIN\Desktop\教學\Training Course\LinqPractice\LinqPractice\obj\Debug\LinqPractice.exe
+C:\Users\steven.chao18.568WIN\Desktop\教學\Training Course\LinqPractice\LinqPractice\obj\Debug\LinqPractice.pdb
