@@ -24,9 +24,9 @@ namespace LinqPractice.BookRental
 
         public List<RentalRecord> GetAllRentalRecordByUsername(string Username)
         {
-            //Call BookRepository GetBooks
+            //Call BookRepository GetMember
             //Flatten data one user mapping many book
-            var books = _bookRepository.GetBooks();
+            var members = _bookRepository.GetMemberDetails();
             throw new NotImplementedException();
         }
 
