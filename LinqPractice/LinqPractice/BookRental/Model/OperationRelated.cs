@@ -14,5 +14,6 @@ namespace LinqPractice.BookRental.Model
         public string Username { get; set; }
         public EnumConnectionWay ConnectionWay { get; set; }
         public string BookName { get; set; }
+        public string ConnectionContent { get; set; }
     }
 }

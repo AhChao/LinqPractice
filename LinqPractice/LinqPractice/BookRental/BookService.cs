@@ -18,20 +18,23 @@ namespace LinqPractice.BookRental
         {
             //Call BookRepository GetBooks
             //Filter the books in the list
+            var books = _bookRepository.GetBooks();
             throw new NotImplementedException();
         }
 
         public List<RentalRecord> GetAllRentalRecordByUsername(string Username)
         {
-            //Call BookRepository GetBooks & GetMember
+            //Call BookRepository GetBooks
             //Flatten data one user mapping many book
+            var books = _bookRepository.GetBooks();
             throw new NotImplementedException();
         }
 
-        public List<MemberBasic> GetMemberListByBalanceByName()
+        public List<MemberBasic> GetMemberListByBalanceDescByName()
         {
             //Call BookRepository GetMember
             //User order to get list order by balance first, then by name
+            var members = _bookRepository.GetMemberDetails();
             throw new NotImplementedException();
         }
 
@@ -39,6 +42,8 @@ namespace LinqPractice.BookRental
         {
             //Call BookRepository GetMember and GetBook
             //Join book data to get the person spent how much money on those rent books
+            var books = _bookRepository.GetBooks();
+            var members = _bookRepository.GetMemberDetails();
             throw new NotImplementedException();
         }
 
@@ -47,6 +52,7 @@ namespace LinqPractice.BookRental
             //Call BookRepository GetMember
             //Check rent date first, then check the people connection way
             //Connection way should take the first priority way of the list
+            var members = _bookRepository.GetMemberDetails();
             throw new NotImplementedException();
         }
     }

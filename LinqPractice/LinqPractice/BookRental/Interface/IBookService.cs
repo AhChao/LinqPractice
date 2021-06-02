@@ -8,7 +8,7 @@ namespace LinqPractice.BookRental.Interface
     {
         List<Book>GetNewBooksWithPublishDate(DateTime publishDate);
         List<RentalRecord> GetAllRentalRecordByUsername(string Username);
-        List<MemberBasic> GetMemberListByBalanceByName();
+        List<MemberBasic> GetMemberListByBalanceDescByName();
         decimal GetTheUserPaidAmountForNowRentBooks(string Username);
         List<RentTimeNotification> GenerateConnectionListForBooksRentBeforeTheDate(DateTime date);
     }

@@ -28,9 +28,9 @@ namespace LinqPracticeTest
             Assert.AreEqual(2, _bookService.GetAllRentalRecordByUsername("Martin").Count);
         }
         [Test]
-        public void Get_Member_List_By_Balance_By_Name_First_One_Should_Be_Capco()
+        public void Get_Member_List_By_Balance_Desc_By_Name_First_One_Should_Be_Capco()
         {
-            Assert.AreEqual("Capco", _bookService.GetMemberListByBalanceByName().First().Username);
+            Assert.AreEqual("Capco", _bookService.GetMemberListByBalanceDescByName().First().Username);
         }
         [Test]
         public void Get_Sally_Paid_Amount_For_Now_Rent_Books_Should_Be_18()
