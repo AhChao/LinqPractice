@@ -77,13 +77,15 @@ namespace LinqPractice.BookRental
             {
                 x.Username,
                 x.Contacts.OrderBy(c => c.Priority).First().ConnectionWay,
+                x.Contacts.OrderBy(c => c.Priority).First().ConnectionContent,
                 r.BookName,
                 r.RentStartDate
             }).Where(r => r.RentStartDate <= date).Select(a => new RentTimeNotification()
             {
                 BookName = a.BookName,
                 Username = a.Username,
-                ConnectionWay = a.ConnectionWay
+                ConnectionWay = a.ConnectionWay,
+                ConnectionContent = a.ConnectionContent
             }).ToList();
         }
     }
