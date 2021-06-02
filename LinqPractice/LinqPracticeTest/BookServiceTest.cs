@@ -30,7 +30,7 @@ namespace LinqPracticeTest
         [Test]
         public void Get_Member_List_By_Balance_By_Name_First_One_Should_Be_Capco()
         {
-            Assert.AreEqual("Capco", _bookService.GetMemberListByBalanceByName());
+            Assert.AreEqual("Capco", _bookService.GetMemberListByBalanceByName().First().Username);
         }
         [Test]
         public void Get_Sally_Paid_Amount_For_Now_Rent_Books_Should_Be_18()
